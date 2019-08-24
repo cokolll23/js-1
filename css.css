@@ -1,0 +1,40 @@
+.button__wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.button:hover {
+    background-color: #d0021b;
+    color: white;
+}
+.button {
+    box-sizing: border-box;
+    padding: 0 32px;
+    border: solid 1px #d0021b;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+     transition: all 0.3s;
+    background-color: transparent;
+    color: #d0021b;
+    font-weight: 200;
+    font-size: 11px;
+    letter-spacing: 1.4px;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+     display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    line-height: 48px;
+}
