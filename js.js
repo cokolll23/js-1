@@ -1,12 +1,32 @@
 
-var frederick = {
-    name: "Frederick Douglass",
-    canRead: false,
-    canWrite: false
-};
+$(document).ready(function() {
+    if ($("p.notetext").text().length > 0) {
 
-function selfEducate() {
-    frederick.canRead = true
-    frederick.canWrite = true
-    return frederick
-}
+
+        //$("p.notetext").append("<a class='closeNonetext'></a>");
+        $(".zatemnenie").show(300);
+
+        $("div.message").appendTo($('body'));
+
+
+        $(".closeNonetext").click(function () {
+
+            $("p.notetext").hide();
+            $(".zatemnenie").hide();
+
+        });
+
+        $(document).mouseup(function (e){ // событие клика по веб-документу
+            var div = $("p.notetext"); // тут указываем ID элемента
+            if (!div.is(e.target) // если клик был не по нашему блоку
+                && div.has(e.target).length === 0) { // и не по его дочерним элементам
+                div.hide(); // скрываем его
+                $(".zatemnenie").hide(300);
+            }
+        });
+
+
+
+    }
+
+});
