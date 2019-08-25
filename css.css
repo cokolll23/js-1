@@ -10,7 +10,7 @@
 .notetext{
     z-index: 99999;
     border: 1px solid #bcd016;
-    padding: 30px;
+    padding: 30px!important;
 }
 .button__wrapper {
     display: -webkit-box;
