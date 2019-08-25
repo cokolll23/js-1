@@ -12,6 +12,11 @@
     border: 1px solid #bcd016;
     padding: 30px;
 }
+.notetext1133{
+    z-index: 99999;
+    border: 1px solid #9f9bd0;
+    padding: 30px;
+}
 .button__wrapper {
     display: -webkit-box;
     display: -webkit-flex;

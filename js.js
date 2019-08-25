@@ -1,5 +1,6 @@
 
 $(document).ready(function() {
+    console.log("12333");
     if ($("p.notetext").text().length > 0) {
 
 
