@@ -15,7 +15,7 @@
 .notetext1133{
     z-index: 99999;
     border: 1px solid #9f9bd0;
-    padding: 30px;
+    padding: 30px!important;
 }
 .button__wrapper {
     display: -webkit-box;
